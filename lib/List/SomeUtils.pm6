@@ -1,7 +1,7 @@
 use v6.c;
 
-module List::SomeUtils:ver<0.0.4>:auth<cpan:ELIZABETH> {
-    use List::MoreUtils;
+module List::SomeUtils:ver<0.0.5>:auth<cpan:ELIZABETH> {
+    use List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>;
 
     BEGIN {
         trait_mod:<is>(
@@ -59,7 +59,7 @@ and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
