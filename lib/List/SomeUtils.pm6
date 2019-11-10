@@ -1,7 +1,7 @@
 use v6.c;
 
-module List::SomeUtils:ver<0.0.5>:auth<cpan:ELIZABETH> {
-    use List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>;
+module List::SomeUtils:ver<0.0.6>:auth<cpan:ELIZABETH> {
+    use List::MoreUtils:ver<0.0.6>:auth<cpan:ELIZABETH>;
 
     BEGIN {
         trait_mod:<is>(
@@ -30,7 +30,7 @@ sub EXPORT(*@args, *%_) {
 
 =head1 NAME
 
-List::SomeUtils - Port of Perl 5's List::SomeUtils 0.56
+List::SomeUtils - Port of Perl's List::SomeUtils 0.56
 
 =head1 SYNOPSIS
 
@@ -47,8 +47,7 @@ List::SomeUtils - Port of Perl 5's List::SomeUtils 0.56
 =head1 DESCRIPTION
 
 List::SomeUtils is a functional copy of L<List::MoreUtils>.  As for the
-reasons of its existence, please check the documentation of the Perl 5
-version.
+reasons of its existence, please check the documentation of the Perl version.
 
 =head1 AUTHOR
 

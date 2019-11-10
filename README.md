@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/List-SomeUtils.svg?branch=master)](https://travis-ci.org/lizmat/List-SomeUtils)
-
 NAME
 ====
 
-List::SomeUtils - Port of Perl 5's List::SomeUtils 0.56
+List::SomeUtils - Port of Perl's List::SomeUtils 0.56
 
 SYNOPSIS
 ========
@@ -21,7 +19,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-List::SomeUtils is a functional copy of [List::MoreUtils](List::MoreUtils). As for the reasons of its existence, please check the documentation of the Perl 5 version.
+List::SomeUtils is a functional copy of [List::MoreUtils](List::MoreUtils). As for the reasons of its existence, please check the documentation of the Perl version.
 
 AUTHOR
 ======

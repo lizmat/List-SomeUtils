@@ -2,6 +2,9 @@ Revision history for List-SomeUtils
 
 {{$NEXT}}
 
+0.0.6  2019-11-10T13:35:40+01:00
+    - changed Perl 5 to Perl
+
 0.0.5  2019-03-17T14:08:49+01:00
     - require List::SomeUtils:ver<0.0.5>:auth<cpan:ELIZABETH>
     - Update copyright year
