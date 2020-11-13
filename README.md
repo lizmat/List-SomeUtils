@@ -1,7 +1,7 @@
 NAME
 ====
 
-List::SomeUtils - Port of Perl's List::SomeUtils 0.56
+Raku port of Perl's List::SomeUtils module 0.56
 
 SYNOPSIS
 ========
@@ -19,6 +19,8 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
+This module tries to mimic the behaviour of Perl's `List::SomeUtils` module as closely as possible in the Raku Programming Language.
+
 List::SomeUtils is a functional copy of [List::MoreUtils](List::MoreUtils). As for the reasons of its existence, please check the documentation of the Perl version.
 
 AUTHOR
@@ -31,7 +33,7 @@ Source can be located at: https://github.com/lizmat/List-SomeUtils . Comments an
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

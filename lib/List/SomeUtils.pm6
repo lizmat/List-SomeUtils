@@ -1,7 +1,7 @@
-use v6.c;
+use v6.*;
 
-module List::SomeUtils:ver<0.0.6>:auth<cpan:ELIZABETH> {
-    use List::MoreUtils:ver<0.0.6>:auth<cpan:ELIZABETH>;
+module List::SomeUtils:ver<0.0.7>:auth<cpan:ELIZABETH> {
+    use List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>;
 
     BEGIN {
         trait_mod:<is>(
@@ -30,7 +30,7 @@ sub EXPORT(*@args, *%_) {
 
 =head1 NAME
 
-List::SomeUtils - Port of Perl's List::SomeUtils 0.56
+Raku port of Perl's List::SomeUtils module 0.56
 
 =head1 SYNOPSIS
 
@@ -46,6 +46,9 @@ List::SomeUtils - Port of Perl's List::SomeUtils 0.56
 
 =head1 DESCRIPTION
 
+This module tries to mimic the behaviour of Perl's C<List::SomeUtils> module
+as closely as possible in the Raku Programming Language.
+
 List::SomeUtils is a functional copy of L<List::MoreUtils>.  As for the
 reasons of its existence, please check the documentation of the Perl version.
 
@@ -58,8 +61,10 @@ and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

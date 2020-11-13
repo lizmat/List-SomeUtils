@@ -1,25 +1,28 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "cpan:ELIZABETH",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [
-    "List::MoreUtils:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  "build-depends": [
   ],
-  "description" : "Port of Perl's List::SomeUtils 0.56",
-  "license" : "Artistic-2.0",
-  "name" : "List::SomeUtils",
-  "perl" : "6.c",
-  "provides" : {
-    "List::SomeUtils" : "lib/List/SomeUtils.pm6"
+  "depends": [
+    "List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's List::SomeUtils module 0.56",
+  "license": "Artistic-2.0",
+  "name": "List::SomeUtils",
+  "perl": "6.c",
+  "provides": {
+    "List::SomeUtils": "lib/List/SomeUtils.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/List-SomeUtils.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/List-SomeUtils.git",
+  "tags": [
     "UTILS",
     "CPAN5"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.6"
+  "test-depends": [
+  ],
+  "version": "0.0.7"
 }

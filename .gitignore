@@ -7,3 +7,4 @@
 .precomp/
 /releases/
 /List-SomeUtils-*
+/lib/List/Moreutils.pm6
