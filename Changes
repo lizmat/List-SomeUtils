@@ -2,6 +2,12 @@ Revision history for List-SomeUtils
 
 {{$NEXT}}
 
+0.0.8  2021-09-09T19:46:17+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.7  2020-11-13T18:16:54+01:00
     - Change name of distribution
     - Force to highest possible Raku version
